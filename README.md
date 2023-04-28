@@ -21,6 +21,7 @@ You can customise it by making changes to the script. This script is more suitab
    ```
 3. Sit back and watch as File Organizer does its magic!
 
+If you are on windows, you can checkout the executable file in dist/ directory and directly run the organizer from there. 
 ## Customization
 
 File Organizer can be easily customized to suit your specific needs. The script is well-commented and easy to understand, even for beginner Python programmers. You can modify the source code to add new grouping methods or customize the existing ones. You can also change the default source and destination directories, as well as the categories for the category grouping method.
