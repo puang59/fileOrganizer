@@ -1,36 +1,25 @@
 # File Organizer
 
-File Organizer is a Python script that helps you organize your messy files into neat and tidy folders. It can group files by file type, date, or category, and move them to a specified directory.
+File Organizer is a Python script that helps you organize your messy files into neat and tidy folders. It can group files by file type or category, and move them to a specified directory.
+If you have a habit of storing files in your desktop directory for whatever reason, then this script can later on manage all the files you stored on your desktop.
 
 ## Installation
 
 1. Clone or download this repository to your local machine.
 2. Make sure you have Python 3 installed on your system.
-3. Install the required Python packages by running the following command in your terminal:
-
-   ```
-   pip install -r requirements.txt
-   ```
+3. Bring the `fileOrganizer.py` file to your desktop.
 
 ## Usage
+Before doing anything, make sure to make Media folder in your Desktop dir and inside it create folder - images, screenshots, videos, misc
+You can customise it by making changes to the script. This script is more suitable for Mac users.
 
-1. Open the terminal and navigate to the directory where the `file_organizer.py` script is located.
+1. Open the terminal and navigate to Desktop where the `fileOrganizer.py` script is located.
 2. Run the script by typing the following command:
 
    ```
-   python file_organizer.py
+   python3 fileOrganizer.py
    ```
-
-3. Follow the prompts to select the source directory, destination directory, and grouping method.
-4. Sit back and watch as File Organizer does its magic!
-
-## Grouping Methods
-
-File Organizer can group files in the following ways:
-
-- By file type: Organizes files into subfolders based on their file extensions (e.g., `.jpg`, `.pdf`, etc.).
-- By date: Organizes files into subfolders based on the date they were last modified (e.g., `2022-01-01`, `2022-01-02`, etc.).
-- By category: Allows you to specify a list of categories and move files that match each category to a corresponding subfolder (e.g., `Music`, `Photos`, etc.).
+3. Sit back and watch as File Organizer does its magic!
 
 ## Customization
 
